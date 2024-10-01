@@ -1,0 +1,22 @@
+{
+  "name": "pw_cicd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/namnguyen20999/PW_CICD.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/namnguyen20999/PW_CICD/issues"
+  },
+  "homepage": "https://github.com/namnguyen20999/PW_CICD#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.47.2",
+    "@types/node": "^22.7.4"
+  }
+}
