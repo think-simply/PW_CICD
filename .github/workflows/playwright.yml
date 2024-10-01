@@ -28,7 +28,7 @@ jobs:
         run: npx playwright install --with-deps
 
       - name: Run Playwright tests
-        run: npx playwright test --reporter=dot
+        run: npx playwright test --reporter=list
 
       - name: Upload test results
         if: always()  # Upload results even if tests fail
